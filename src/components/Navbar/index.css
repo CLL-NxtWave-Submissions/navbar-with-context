@@ -1,1 +1,42 @@
-/* Write your CSS here */
+.navbar-bg-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 0;
+  height: 20%;
+}
+
+.website-logo-img,
+.theme-button-img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navbar-link {
+  text-decoration: none;
+}
+
+.navbar-link-button {
+  color: #1e293b;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.navbar-link-button,
+.theme-button {
+  cursor: pointer;
+  border: none;
+  background: inherit;
+  outline: none;
+}
