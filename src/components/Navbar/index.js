@@ -28,7 +28,12 @@ const Navbar = () => (
           <ul className="navbar-links-container">
             <li className="navbar-link-item">
               <Link className="navbar-link" to="/">
-                <button type="button" className="navbar-link-button">
+                <button
+                  type="button"
+                  className={`navbar-link-button ${
+                    isDarkTheme ? 'dark-theme-text' : 'light-theme-text'
+                  }`}
+                >
                   Home
                 </button>
               </Link>
@@ -36,7 +41,12 @@ const Navbar = () => (
 
             <li className="navbar-link-item">
               <Link className="navbar-link" to="/about">
-                <button type="button" className="navbar-link-button">
+                <button
+                  type="button"
+                  className={`navbar-link-button ${
+                    isDarkTheme ? 'dark-theme-text' : 'light-theme-text'
+                  }`}
+                >
                   About
                 </button>
               </Link>

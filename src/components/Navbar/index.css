@@ -47,6 +47,14 @@
   font-family: 'Roboto';
 }
 
+.dark-theme-text {
+  color: #dcdcdc;
+}
+
+.light-theme-text {
+  color: #1e293b;
+}
+
 .navbar-link-button,
 .theme-button {
   cursor: pointer;
